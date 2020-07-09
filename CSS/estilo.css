@@ -1,0 +1,238 @@
+/** Globales **/
+
+.contenedor {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+/** Header **/
+
+.site-header {
+    background: url(../img/escritorio3.jpeg);
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+    min-height: 480px;
+    padding-top: 5px;
+}
+
+.titulo.inicio {
+    width: 100%;
+    text-align: center;
+    font-size: 45px;
+    font-weight: 700;
+    padding: 15px 0;
+    color: white;
+    background: rgba(49, 49, 49, .9);
+}
+
+header figure {
+    text-align: center;
+    margin: 30px 0;
+}
+
+figure img {
+    width: 208px;
+    border-radius: 50%;
+    border: 6px
+}
+
+header .frase {
+    text-align: center;
+    font-size: 15px;
+    font-weight: 400;
+    padding: 15px 0;
+    color: black;
+}
+
+
+/** Main **/
+
+main {
+    width: 100%;
+    margin-top: 150px;
+}
+
+main .acerca-mio {
+    width: 100%;
+    text-align: center;
+    background-color: #a8a4a4;
+    padding: 40px 0;
+    margin-bottom: 150px;
+}
+
+main .acerca-mio article {
+    width: 60%;
+    max-width: 1000px;
+    margin: auto;
+    line-height: 35px;
+    margin-bottom: 40px;
+}
+
+main .acerca-mio .social {
+    width: 70%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+main .acerca-mio .social img {
+    width: 20%;
+    margin: 0 20px;
+}
+
+
+/** Caracteristicas **/
+
+main .caracteristicas {
+    width: 90%;
+    margin: auto;
+    margin-bottom: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+main .caracteristicas .caracteristica {
+    width: 20%;
+    padding: 25px;
+    text-align: center;
+    transition: all .3 ease;
+}
+
+main .caracteristicas .caracteristica:hover {
+    transform: scale(1.1);
+}
+
+main .caracteristicas .caracteristica .titulo {
+    font-weight: 400;
+    font-size: 25px;
+    margin: 10px 0;
+}
+
+
+/** Proyectos **/
+
+main .proyectos {
+    width: 85%;
+    max-width: 1200px;
+    margin: auto;
+    margin-bottom: 200px;
+}
+
+main .proyectos .titulo {
+    font-size: 30px;
+    color: rgba(49, 49, 49, .9);
+    margin-bottom: 20px;
+}
+
+main .proyectos .descripcion {
+    font-weight: 300;
+    font-size: 15px;
+    margin-bottom: 45px;
+}
+
+main .proyectos .proyecto {
+    width: 100%;
+    padding: 20px;
+    background: rgb(235, 235, 235);
+    margin-bottom: 50px;
+    text-align: center;
+    color: #444;
+}
+
+.proyecto h2 {
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.proyecto p {
+    font-weight: 300;
+}
+
+.proyecto div {
+    background: #f2784b;
+    margin-top: 20px;
+    padding: 15px;
+}
+
+.proyecto div p {
+    display: inline-block;
+    margin: 0 20px;
+}
+
+.proyecto div a {
+    color: #fff;
+}
+
+
+/** Habilidades **/
+
+main .habilidades {
+    width: 85%;
+    margin: auto;
+    max-width: 1500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+main .habilidades .titulo {
+    width: 100%;
+    font-size: 30px;
+    color: rgb(24, 22, 22);
+    margin-bottom: 20px;
+    margin: auto;
+    margin-bottom: 100px;
+}
+
+.habilidad {
+    width: 25%;
+    text-align: center;
+    margin: 0px 10px;
+    margin-bottom: 30px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.habilidad img {
+    width: 140px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.habilidad p {
+    width: 100%;
+    font-weight: 700;
+    text-align: center;
+}
+
+footer {
+    margin-top: 300px;
+    padding: 30px;
+    background: #222;
+}
+
+footer .contactame {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+
+footer .contactame h2 {
+    font-size: 35px;
+    color: #fff;
+    font-weight: 300;
+    margin-bottom: 40px;
+}
+
+footer .contactame p {
+    color: #fff;
+    font-weight: 300;
+}
